@@ -1,0 +1,32 @@
+.cust-primary {
+  background: #845ec2 !important;
+}
+.cust-secondary {
+  background: #ffc75f !important;
+}
+.cust-success {
+  background: #f3f3d2 !important;
+}
+
+.cust-warning {
+  background: #ff5e78 !important;
+}
+
+.card:hover {
+  box-shadow: 5px 10px 20px 1px rgba(36, 94, 94, 0.2);
+  transition: all 0.4s linear;
+}
+
+.card-header {
+  color: #845ec2;
+}
+
+.card-header:hover {
+  color: #ffff;
+  background: #845ec2;
+  transition: all 0.3s linear;
+}
+
+body {
+  background: #eaffd0;
+}
