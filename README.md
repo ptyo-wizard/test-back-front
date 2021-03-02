@@ -1,12 +1,12 @@
 # test-back-front
 prueba
 
-baken REST
+backen: REST
   express
   moment
   axios
   
-front
+front-end:
   react-hook-form
   redux
   axios
