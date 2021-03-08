@@ -1,6 +1,6 @@
 require("dotenv").config();
 const app = require("./app");
-let port = process.env.PORT || 30002;
+let port = process.env.PORT || 3002;
 
 async function main() {
   try {
