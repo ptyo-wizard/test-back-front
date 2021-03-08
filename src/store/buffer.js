@@ -25,7 +25,13 @@ const buffer = [
       ready_pickup_promise_min: "",
       ready_pickup_promise_max: "",
     },
-    line_items: [],
+    line_items: [
+      {
+        product_name: "zapatos",
+        product_qty: "1",
+        product_weight: "12",
+      },
+    ],
   },
 ];
 

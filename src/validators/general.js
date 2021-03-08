@@ -77,6 +77,13 @@ function getRulesParamsHour(rules) {
   const toTimeOfDay = rules.availability.byRequestTime.toTimeOfDay;
   const hour = moment().format("H"); //0-23
 
+  console.log(
+    "en get rules hour: hour fromTime toTime ",
+    hour,
+    fromTimeOfDay,
+    toTimeOfDay
+  );
+
   return fromTimeOfDay <= hour && hour <= toTimeOfDay;
 }
 
